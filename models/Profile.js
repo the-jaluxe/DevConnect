@@ -8,14 +8,15 @@ const ProfileSchema = new mongoose.Schema({
   company: {
     type: String
   },
-  webstie: {
+  website: {
     type: String
   },
   location: {
     type: String
   },
   status: {
-    type: String
+    type: String,
+    required: true
   },
   skills: {
     type: [String],
@@ -109,4 +110,4 @@ const ProfileSchema = new mongoose.Schema({
   }
 });
 
-module.exports = Profile = mongoose.model('profile', ProfileSchema);
+module.exports = mongoose.model('profile', ProfileSchema);
