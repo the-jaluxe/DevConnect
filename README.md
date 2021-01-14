@@ -15,7 +15,6 @@ profile creation and allows users to integrate their GitHub portfolio in their p
 
 ### Built With
 
-This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 * [JavaScript](https://www.javascript.com/)
 * [React](https://reactjs.org/)
 * [NodeJS](https://nodejs.org/en/)
